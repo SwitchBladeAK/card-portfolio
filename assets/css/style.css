@@ -120,6 +120,7 @@ textarea {
 }
 html {
   font-family: var(--ff-poppins);
+  scroll-behavior: smooth;
 }
 body {
   background: var(--smoky-black);
