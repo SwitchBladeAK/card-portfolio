@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit Kashyap</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/images/logo_N28_icon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <canvas id="canvas" width="100%" height="100%"></canvas>
+    <main>
+      <aside class="sidebar" data-sidebar >
+        <div class="sidebar-info" >
+          <figure class="avatar-box" data-aos="zoom-in">
+            <img data-aos="zoom-in" data-aos-delay="100"
+              src="./assets/images/my-avatar.png"
+              alt="Ankit Kashyap"
+              width="80"
+              style="border-radius: 20%;"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Ankit Kashyap" data-aos="fade-right" data-aos-delay="200">Ankit Kashyap</h1>
+            <span class="type" style="--n: 4; --d: 1s">
+              <span data-aos="zoom-in">
+                <span>Web Developer</span>
+                <span>Graphic Designer</span>
+                <span>&nbsp;&nbsp;&nbsp;Video Editor&nbsp;&nbsp;</span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;Memer&nbsp;&nbsp;&nbsp;</span>
+              </span>
+            </span>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show More</span>
+
+            <i class="bx bx-chevron-down"></i>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator" data-aos="zoom-in"></div>
+
+          <ul class="contacts-list" data-aos="zoom-in-right">
+            <li class="contact-item" >
+              <div class="icon-box" id="box">
+                <a href="mailto:ankitsonukashyap@gmail.com"><i class="bx bx-envelope" style="color: #12f7ff;"></i></a>
+              </div>
+
+              <div class="contact-info" >
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:ankitsonukashyap@gmail.com" class="contact-link"
+                  >ankitsonukashyap@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box" id="box">
+                <a href="tel:7903735061"><i class="bx bx-phone-call bx-tada" style="color: #12f7ff;"></i></a>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:7903735061" class="contact-link">7903735061</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box" id="box">
+                <i class="bx bx-calendar"></i>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2001-08-20">August 20, 2001</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box" id="box">
+                <a href="https://goo.gl/maps/gHh15QE6uGJMLrP2A"
+            ><i class="bx bx-location-plus" style="color: #12f7ff;"></i></a>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Deoghar, Jharkhand, India</address>
+              </div>
+            </li>
+          </ul>
+          <a href="https://drive.google.com/file/d/10Ks0zvaqGbw6ILl7765aCgpWsNwXjxFO/view"
+            ><div
+              class="icon-box"
+              style="margin-top: 20%; width: 100%"
+              id="box"
+              data-aos="zoom-in"
+            >
+              View Resume
+            </div></a
+          >
+
+          <a href="https://ankit-kashyap.netlify.app/"
+            ><div class="icon-box" style="margin-top: 5%; width: 100%" id="box" data-aos="zoom-in">
+              Previous Website
+            </div></a
+          >
+          <div class="separator"></div>
+
+          <ul class="social-list" data-aos="zoom-in-right">
+            <li class="social-item">
+              <a href="https://github.com/SwitchBladeAK" class="social-link">
+                <i class="bx bxl-github"></i>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/ankit-kashyap-99490a235/" class="social-link">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+            </li>
+
+            <li class="social-item" id="ak">
+              <a href="https://www.instagram.com/ankitkashyap.md/"><img
+                src="/assets/images/logo_N28_icon.ico"
+                alt="Ankit"
+                style="width: 20px"
+              /></a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/ankitkashyap.exe/" class="social-link">
+                <i class="bx bxl-instagram"></i>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.behance.net/ankitdoesev" class="social-link">
+                <i class="bx bxl-behance"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+        <article class="about active" data-page="about">
+          <header data-aos="zoom-out-right">
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text" data-aos="zoom-out-right" data-aos-delay="300">
+            <p>
+              I am a detail-oriented and organized <strong style="font-weight: 400;color: #12f7ff;">Web Developer</strong> who takes pride
+              in work and also have a keen interest in <strong style="font-weight: 400;color: #12f7ff;">UI/UX ,web design,
+              graphic designing, video editing, animations, photography, gaming,</strong>
+              etc. I am able to work independently and as part of a team, and I
+              am always willing to go the extra mile to get the job done. I am
+              also a quick learner and I am always up-to-date on the latest tech
+              trends. I am too a deep rooted learner who is continuously
+              energetic to memorize modern things and is passionately curious to
+              explore, learn and grow.
+            </p>
+          </section>
+          <section class="service">
+            <h3 class="h3 service-title" data-aos="zoom-out-right">What i'm doing</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item" id="box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-icon-box" >
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box" >
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Creating high-quality, user-friendly websites
+                  </p>
+                </div>
+              </li>
+              <li class="service-item" id="box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX & Graphic Design
+
+                  <p class="service-item-text">
+                    Creating user-friendly and visually appealing graphics.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item" id="box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Memes</h4>
+
+                  <p class="service-item-text">
+                    I love to make memes xoxo
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item" id="box" data-aos="zoom-in" data-aos-delay="400">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Video Editing</h4>
+
+                  <p class="service-item-text">
+                    Creating visually stunning and engaging videos
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+          <section class="clients">
+            <h3 class="h3 clients-title" data-aos="zoom-out-right">Technologies</h3>
+
+            <ul class="clients-list has-scrollbar" > 
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+                
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                
+              </li>
+
+              <li class="clients-item"  data-aos="zoom-in" data-aos-delay="300">
+               
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+               
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+                
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+              
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+               
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+                
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+               
+                  <img
+                    src="./assets/images/logo-11-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+              
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+              
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+                
+                  <img
+                    src="./assets/images/logo-7-color.png"
+                    alt="client logo"
+                  />
+              
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+              
+                  <img
+                    src="./assets/images/logo-8-color.png"
+                    alt="client logo"
+                  />
+                
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+                
+                  <img
+                    src="./assets/images/logo-9-color.png"
+                    alt="client logo"
+                  />
+             
+              </li>
+
+              <li class="clients-item" data-aos="zoom-in" data-aos-delay="300">
+               
+                  <img
+                    src="./assets/images/logo-10-color.png"
+                    alt="client logo"
+                  />
+              
+              </li>
+            </ul>
+          </section>
+        </article>
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title" data-aos="zoom-out-right">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <i class="bx bx-book-open"></i>
+              </div>
+
+              <h3 class="h3" data-aos="zoom-in-right">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">
+                  Birla Institute of Technology, Mesra
+                </h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">Bachelor of Technology</p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">
+                  Full Stack Web Development
+                </h4>
+                <p class="timeline-text">Angela Yu</p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">C/C++/Python</h4>
+                <p class="timeline-text">Code Help</p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">
+                  Adobe Photoshop/Premiere Pro/Illustrator/After
+                  Effects/Lightroom
+                </h4>
+                <p class="timeline-text">GFX Mentor</p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">Figma/Canva</h4>
+                <p class="timeline-text">Self Taught</p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right" >
+                <h4 class="h4 timeline-item-title">React/NEXT.js</h4>
+                <p class="timeline-text">Self Taught</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <i class="bx bx-book-open"></i>
+              </div>
+
+              <h3 class="h3" data-aos="zoom-in-right">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item" data-aos="fade-right" >
+                <h4 class="h4 timeline-item-title">
+                  Co-Founder & Chief Technology Officer, BizAd
+                </h4>
+                <p class="timeline-text">
+                  - Made BizAd Website using self made templates and icons
+                  <br />
+                  - Managing the technology budget and resources effectively
+                  <br />
+                  - Collaborating with other teams to align technology
+                  initiatives with business goals <br />
+                  - Recruiting, developing, and managing the technology team
+                  <br />
+                  - Made posters, templates and graphics for the Bizad's whole
+                  social media
+                </p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">Intern, Precap</h4>
+                <p class="timeline-text">
+                  - Worked on the informative carousels and informative posts
+                  <br />
+                  - Made short videos and eye catching reels to promote Content
+                  as a service <br />
+                  - Tapped clients including foreign clients for the growth of
+                  our startup
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <i class="bx bx-book-open"></i>
+              </div>
+
+              <h3 class="h3" data-aos="zoom-in-right">Co-Curricular Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">
+                  Graphic Lead, Entrepreneurship Developmental Cell(EDC BITM)
+                </h4>
+                <p class="timeline-text">
+                  - Worked under Marketing, Outreach and Design Team <br />
+                  - Designed various posters and flexes for E-Summit and various
+                  events <br />
+                  - Pitched multiple speakers and contributed in the content
+                  team as well <br />
+                  - Generated various leads through many .ai tools <br />
+                  - Also managed the whole social media team during the recent
+                  E-Summit’23
+                </p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">
+                  Tech Team & Graphic Team, 180 Degrees Consultancy(180DC BITM)
+                </h4>
+                <p class="timeline-text">
+                  - Made the official merch for the members <br />
+                  - Made templates , posters , flexes etc. <br />
+                  - Done UI/UX of the website <br />
+                  - Currently working under Tech Team for the website
+                </p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">
+                  Member, Society for Data Science (SDS BITM)
+                </h4>
+                <p class="timeline-text">
+                  -Worked under Events , Video and Design Team <br />
+                  -Designed various posters and flexes for various events and
+                  workshops <br />
+                  -Contributed in the workshops for Python and events <br />
+                  -Used Scikit Learn utilised for model prediction and
+                  converting alphabetical values to numbers <br />
+                  -Analysed data-set using Numpy and Matplotlib libraries by
+                  plotting graphs and visualizing the predictions <br />
+                </p>
+              </li>
+
+              <li class="timeline-item" data-aos="fade-right">
+                <h4 class="h4 timeline-item-title">
+                  Member, Student Alumni Relations Cell (SDS BITM)
+                </h4>
+                <p class="timeline-text">
+                  - Designed various templates, graphics and posters <br />
+                  - Made the E-News Edition III , IV , V <br />
+                  - Also made the SARC T-Shirts
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <i class="bx bx-book-open"></i>
+              </div>
+
+              <h3 class="h3" data-aos="zoom-in-right">Extra-Curricular Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item" data-aos="zoom-in" >
+                <h4 class="h4 timeline-item-title">
+                  Hospitality, Transport and Management Team
+                </h4>
+                <p class="timeline-text" style="color: #12f7ff;">Foundation Day’22</p>
+              </li>
+
+              <li class="timeline-item" data-aos="zoom-in">
+                <h4 class="h4 timeline-item-title">Design and Video Team</h4>
+                <p class="timeline-text" style="color: #12f7ff;">Pantheon’22</p>
+              </li>
+
+              <li class="timeline-item" data-aos="zoom-in">
+                <h4 class="h4 timeline-item-title">
+                  Tech, Design and Video Team
+                </h4>
+                <p class="timeline-text" style="color: #12f7ff;">BITOTSAV’23</p>
+              </li>
+
+              <li class="timeline-item" data-aos="zoom-in">
+                <h4 class="h4 timeline-item-title">Core Team</h4>
+                <p class="timeline-text" style="color: #12f7ff;">E-SUMMIT’23</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title" data-aos="zoom-in-right">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5" data-aos="zoom-in-right">Frontend Development</h5>
+                  <data value="80" >80%</data>
+                </div>
+
+                <div class="skill-progress-bg" data-aos="zoom-in-right">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5" data-aos="zoom-in-right">Backend Development</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%" data-aos="zoom-in-right"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5" data-aos="zoom-in-right">Graphic Design</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%" data-aos="zoom-in-right"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5" data-aos="zoom-in-right">UI/UX</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%" data-aos="zoom-in-right"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5" data-aos="zoom-in-right">Video Editing</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%" data-aos="zoom-in-right"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5" data-aos="zoom-in-right">Motion Graphics</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg" data-aos="zoom-in-right">
+                  <div class="skill-progress-fill" style="width: 70%" ></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title" data-aos="zoom-in-right">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://bizad.in/"  data-aos="zoom-in">
+                  <figure class="project-img" id="bizad">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="BizAd"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">BizAd Website</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://switchbladeak.github.io/simon-game/" data-aos="zoom-in">
+                  <figure class="project-img" id="blue">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="Simon Game"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Simon Game</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.figma.com/file/aPEy2217EuO25jhbxzGMjU/180DCBITM-WEB?type=design&node-id=0%3A1&mode=design&t=hkxAAVZ3LUnBJBJt-1"  data-aos="zoom-in">
+                  <figure class="project-img" id="dc">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="180 Degrees Consultancy"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">180 DC Website</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://switchbladeak.github.io/drum-kit/" data-aos="zoom-in">
+                  <figure class="project-img" id="drum">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="Drum Kit"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Drum Kit</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.figma.com/file/wq8RMHfCRcGWLzWuImV1wP/BITOTSAV-Website?type=design&mode=design&t=ocPUSQmURjlTXBsu-0" data-aos="zoom-in">
+                  <figure class="project-img" id="peach">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="Fun unprofessional BITOTSAV’23 UI/UX"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">BITOTSAV’23 unprofessional UI</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ankitbkc-cv.netlify.app/" data-aos="zoom-in">
+                  <figure class="project-img" id="red">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="bkc"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Funny bkc profile</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ankit-netflix-clone.netlify.app/" data-aos="zoom-in">
+                  <figure class="project-img" id="red">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="Netflix"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Netflix Clone</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ankit-amazon-clone.netlify.app/" data-aos="zoom-in">
+                  <figure class="project-img" id="peach">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="amazon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Amazon Clone</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="ankit-kashyap.netlify.app" data-aos="zoom-in">
+                  <figure class="project-img" id="blue">
+                    <div class="project-item-icon-box">
+                      <i class="bx bx-bullseye bx-burst"></i>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="portfolio"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">1st Portfolio Website</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <article class="blog" data-page="blog">
+          <header >
+            <h2 class="h2 article-title" data-aos="zoom-in-right">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="https://www.instagram.com/p/CuPZklKvCQi/?img_index=1" data-aos="zoom-in">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Apple"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Case Study</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-07-03">July 3, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Apple Surpassed $3 Trillion
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.instagram.com/p/CuPi6ogvkNt/?img_index=1" data-aos="zoom-in">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Elon Musk vs Mark Zuckerburg"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Case Study</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-07-04">July 04, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Zuck vs Musk</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.instagram.com/p/CuZqpv6oOz3/?img_index=1" data-aos="zoom-in">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Barbenheimer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Case Study</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-07-07">July 07, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Barbenheimer</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.instagram.com/p/Cuz9Q0CyNE4/?img_index=1" data-aos="zoom-in">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="Google"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Case Study</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-07-18">July 18, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Google SEO Algos</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.instagram.com/p/Cu77DVYSkCO/?img_index=1" data-aos="zoom-in">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="Unreal Engine"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Case Study</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-07-21">July 21, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Unreal Engine</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.instagram.com/p/CvH9hhMvPqF/?img_index=1" data-aos="zoom-in">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="LLaMA"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Case Study</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-07-25">July 25, 2023</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">LLaMA by Meta</h3>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14522.59687440802!2d86.70193724697242!3d24.497608076839008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f117d092464933%3A0x2a889cbb20a8b0d5!2sBilasi%20Town%2C%20Deoghar%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1691140083668!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="https://formspree.io/f/xaygqzny"
+            method="POST" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      const canvas = document.createElement("canvas");
+      const ctx = canvas.getContext("2d");
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      document.body.appendChild(canvas);
+      const fontSize = 10;
+      const columns = canvas.width / fontSize;
+      const drops = [];
+
+      for (let x = 0; x < columns; x++) {
+        drops[x] = 1;
+      }
+
+      function draw() {
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "#12f7ff";
+        ctx.font = fontSize + "px arial";
+
+        for (let i = 0; i < drops.length; i++) {
+          const text = String.fromCharCode(Math.random() * 128);
+          ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+          if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+            drops[i] = 0;
+          }
+          drops[i]++;
+        }
+      }
+      setInterval(draw, 33);
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+  </body>
+</html>
