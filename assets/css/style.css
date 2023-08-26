@@ -93,7 +93,65 @@ canvas {
   height: 100%;
   z-index: -1;
 }
+.container {
+  position: fixed;
+  overflow: hidden;
+  top: 32%;
+  right: -1%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  scale: .5;
+}
 
+.container:before {
+  content: "";
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  transition: all 500ms cubic-bezier(.49,.23,0,.99) ;
+  opacity: 0;
+  
+}
+
+.completed:before{
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 0.5;
+}
+
+svg {
+  position: sticky;
+  transform: rotate(-90deg);
+}
+
+svg circle {
+  stroke:transparent;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+svg .progress-bar {
+  stroke: #12f7ff;
+  transition: stroke-dashoffset 0 ease-in-out; 
+  filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
+}
+
+.pct {
+  position: fixed;
+  font-size: 30px;
+  top: 56.4%; left: 51%;
+  color: #12f7ff;
+  transform: translate(-50%, -50%);
+  font-feature-settings: "tnum"; 
+  font-variant-numeric: tabular-nums;
+}
 button {
   font: inherit;
   background: none;
@@ -1292,6 +1350,8 @@ textarea.form-input::-webkit-resizer {
 @media (min-width: 450px) {
   .clients-item {
     min-width: calc(33.33% - 10px);
+
+   
   }
 
   .project-img,
@@ -1565,7 +1625,9 @@ textarea.form-input::-webkit-resizer {
     font-size: 18px;
   }
 }
+
 @media (min-width: 768px) {
+ 
   .sidebar,
   article {
     width: 700px;
@@ -1632,6 +1694,11 @@ textarea.form-input::-webkit-resizer {
     width: max-content;
     margin-left: auto;
   }
+}
+@media (max-width: 768px){
+.container{
+  display: none;
+}
 }
 @media (min-width: 1024px) {
   :root {
